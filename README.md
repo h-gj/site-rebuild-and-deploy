@@ -4,7 +4,7 @@
 
 | 层 | 负责 | 说明 |
 |---|---|---|
-| 复刻 | [website-rebuild](https://github.com/h-gj/website-rebuild)（基础 skill） | 取证式复刻管线，六条宪法纪律 |
+| 复刻 | [website-rebuild](https://github.com/boyang-hu/website-rebuild-skill)（基础 skill） | 取证式复刻管线，六条宪法纪律 |
 | 发布 | 本 skill `scripts/` | 发布树生成、字节保真校验、建仓推送开 Pages、远端 blob sha 复核 |
 | 参考 | 本 skill `references/` | 阶段化命令清单、Windows 环境坑、排错速查 |
 
@@ -14,7 +14,7 @@
 
 ## 使用
 
-完整规格见 **[SKILL.md](SKILL.md)**。复刻段**必须加载基础 skill [website-rebuild](https://github.com/h-gj/website-rebuild) 并按其全流程执行**。
+完整规格见 **[SKILL.md](SKILL.md)**。复刻段**必须加载基础 skill [website-rebuild](https://github.com/boyang-hu/website-rebuild-skill) 并按其全流程执行**。
 
 安装：把本目录放入 skills 目录（如 `~/.workbuddy/skills/site-rebuild-and-deploy/`）。环境要求：Node 22+、npx、本地 Chrome/Chromium、`gh` CLI（已登录）。
 
